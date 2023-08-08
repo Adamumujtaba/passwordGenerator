@@ -225,4 +225,7 @@ const AppCont = styled.div`
     /* box-shadow: inset 1px 1px 1px 1px lightgray; */
     font-size: 24px;
   }
+  @media screen and (max-width: 400px) {
+    width: 90%;
+  }
 `;
